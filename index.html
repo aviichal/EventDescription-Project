@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Description</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="event-page">
+        <header class="event-header">
+            <h1 id="event-title">Event Title</h1>
+            <p id="event-datetime">Date and Time</p>
+            <p id="event-location">Location</p>
+        </header>
+        <section class="event-description card">
+            <h2>Description</h2>
+            <p id="event-description">Event description goes here...</p>
+        </section>
+        <section class="event-speaker card">
+            <h2>Speaker Information</h2>
+            <div id="speaker-info">
+                <!-- Speaker information will be dynamically inserted here -->
+            </div>
+        </section>
+        <section class="event-registration card">
+            <a href="#" id="registration-link" class="btn">Register Now</a>
+        </section>
+        <section class="event-countdown card">
+            <h2>Countdown to Event</h2>
+            <div id="countdown-timer" class="countdown-timer">
+                <div class="countdown-item">
+                    <span id="days" class="countdown-number"></span>
+                    <span class="countdown-label">days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours" class="countdown-number"></span>
+                    <span class="countdown-label">hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes" class="countdown-number"></span>
+                    <span class="countdown-label">minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds" class="countdown-number"></span>
+                    <span class="countdown-label">seconds</span>
+                </div>
+            </div>
+        </section>
+        <section class="event-gallery card">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/images.jpeg" alt="Gallery Image 1">
+                <img width="450px" src="images/Event-Data-Analytics-Tools-for-Successful-Event-Planning.webp" alt="Gallery Image 2">
+            </div>
+        </section>
+        <section class="event-map card">
+            <h2>Location</h2>
+            <div id="map">
+                <iframe
+                    width="100%"
+                    height="450"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0866806332115!2d144.9632803156311!3d-37.81362797975181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5776d3cc7cbedb2!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1622549226965!5m2!1sen!2sau"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
